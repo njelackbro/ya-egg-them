@@ -1,0 +1,7 @@
+  body{
+    background-image: url("h2.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 23px;
+}

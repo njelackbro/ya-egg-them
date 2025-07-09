@@ -1,0 +1,55 @@
+<?php include('server.php') ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration system PHP and MySQL</title>
+</head>
+<body>
+  <!--<a href="progress.html">Program</a><br>
+<a href="Home.html">Go to home?</a><br>
+<a href="testimonial.html">Go to testimonial?</a><br>
+<a href="workout.html">Go to workout?</a><br>
+  <h1>Push-ups</h1>
+  <ol>
+    <li>
+ Striliser
+    </li>
+  </ol>  
+         <img src="50AnSXG7_400x400.jpg" alt="Hotels" width="200px" height="200px"><br>
+         <h1>Back-ups</h1>
+         <ol>
+          <li>Knee relaxation</li>
+         </ol>
+        <img src="50AnSXG7_400x400.jpg" alt="Hotels" width="200px" height="200px"><br> -->
+<div class="header">
+  <h2>Registra</h2>
+</div>
+<form method="post" action="register.php">
+  <?php include('errors.php'); ?>
+  <div class="input-group">
+    <label>Username</label>
+    <input type="text" name="Username" value="<?php echo $Username; ?>">
+  </div>
+  <div class="input-group">
+    <label>Email</label>
+  <input type="email" name="email" value="<?php echo $email; ?>">
+  </div>
+  <div class="input-group">
+      <label>password</label>
+       <input type="password" name="password_1">
+  </div>
+    <div class="input-group">
+      <label>confirm password</label>
+       <input type="password" name="password_2">
+  </div>
+<div class="input-group">
+  <button type="submit" class="btn" name="reg user">Register</button>
+</div>
+  <p>
+    Already a member? <a href="login.php">sign in</a>
+  </p>
+</form>
+</body>
+</html>
