@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b1b1b;
+    color: white;
+    font-size: 15px;
+    /*text-align: center;*/
+}
+h1{
+    font-family: 'playfai Display';
+    serif;
+    font-size: 70px;
+    color: white;
+    font-weight: 600px;
+    padding-bottom: 20px;
+}
+p{
+    color: #d2d2d2;
+}
+p,input,textarea,label {
+    font-family: 'Poppins';
+    sans-serif;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+input,textarea,label{
+    display: block;
+    margin: 0 auto;
+    color: #828282;
+}
+input,textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid;
+}
+input[type=submit] {
+    background-color: #535557;
+    padding: 2px 15px;
+    color: white;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3a ease;
+}
+input[type=submit]:hover{
+    background: #FFF;
+    color: #1b1b1b;
+}
+input,textarea{
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+}
